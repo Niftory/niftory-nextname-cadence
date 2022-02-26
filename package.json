@@ -3,6 +3,7 @@
     "test": "jest -i"
   },
   "dependencies": {
+    "@google-cloud/kms": "^2.7.0",
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.2",
     "@onflow/fcl": "^0.0.70",
