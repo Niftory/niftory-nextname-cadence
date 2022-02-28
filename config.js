@@ -1,8 +1,8 @@
-require('dotenv').config()
+require("dotenv").config();
 const fclconfig = require("@onflow/fcl");
-const config = fclconfig.config()
+export const config = fclconfig.config();
 
 module.exports = {
-    "accessNode.api":  process.env.ACCESS_NODE,
-    "0xAdmin": process.env.ADMIN_ACCOUNT,
-  };
+  "accessNode.api": process.env.ACCESS_NODE,
+  "0xAdmin": process.env.ADMIN_ACCOUNT,
+};
